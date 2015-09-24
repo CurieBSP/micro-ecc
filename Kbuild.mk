@@ -1,0 +1,1 @@
+obj-$(CONFIG_CRYPTO_ECDSA) += uECC.o
