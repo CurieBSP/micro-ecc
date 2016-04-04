@@ -459,7 +459,7 @@ static int default_RNG(uint8_t *dest, unsigned size) {
 
 #else /* Some other platform */
 
-static int default_RNG(uint8_t *dest, unsigned size) {
+static int default_RNG(uint8_t __unused(*dest), unsigned __unused(size)) {
     return 0;
 }
 
